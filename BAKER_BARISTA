@@ -1,0 +1,117 @@
+# ASAP_YEXKHANT
+MOBILE STREET PHOTOGRAPHY
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ye Khant Kyaw | Personal Website</title>
+    <style>
+        /* Modern, clean CSS styling */
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            color: #333; 
+            line-height: 1.6; 
+            background-color: #f4f7f6;
+        }
+        header { 
+            background: #2c3e50; 
+            color: #fff; 
+            padding: 4rem 0; 
+            text-align: center; 
+        }
+        header h1 { 
+            margin: 0; 
+            font-size: 3rem; 
+            letter-spacing: 1px;
+        }
+        header p { 
+            margin: 0.5rem 0 0; 
+            font-size: 1.2rem; 
+            color: #bdc3c7; 
+        }
+        .container { 
+            width: 85%; 
+            max-width: 1100px; 
+            margin: auto; 
+            padding: 3rem 0; 
+        }
+        h2 {
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 0.5rem;
+            display: inline-block;
+        }
+        .grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+            gap: 2rem; 
+            margin-top: 2rem;
+        }
+        .card { 
+            background: #fff; 
+            padding: 2rem; 
+            border-radius: 10px; 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card h3 { 
+            margin-top: 0; 
+            color: #2980b9; 
+        }
+        footer { 
+            text-align: center; 
+            padding: 2rem; 
+            background: #2c3e50; 
+            color: #ecf0f1;
+            margin-top: 2rem; 
+        }
+        footer a {
+            color: #3498db;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ye Khant Kyaw (Yongpyo)</h1>
+    <p>Culinary Artist | Self-Taught Engineer | Content Creator</p>
+</header>
+
+<div class="container">
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my digital space! I'm constantly exploring how things work and how to create amazing experiences—whether that's through crafting the perfect brioche, building DIY tech projects, or capturing life through a camera lens. I thrive at the intersection of hands-on creation and technical problem-solving.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>My Passions & Projects</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Baking & Culinary Arts</h3>
+                <p>With a foundation in Italian cuisine and professional bakery experience, I obsess over the science and art of the perfect bake—from dialing in pizza dough hydration to mastering complex pastries.</p>
+            </div>
+            <div class="card">
+                <h3>Tech & Engineering</h3>
+                <p>Currently self-studying electrical engineering. I love getting hands-on with DIY electronics, mobile phone hardware, and understanding the nuts and bolts of the technology we use every day.</p>
+            </div>
+            <div class="card">
+                <h3>Photography & Media</h3>
+                <p>When I'm not baking or building, I'm behind a camera. I run a YouTube channel and enjoy color grading, videography, and capturing striking visuals to tell a story.</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>Based in Bangkok, Thailand</p>
+    <p>Let's connect: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+</footer>
+
+</body>
+</html>
